@@ -1,6 +1,8 @@
 extends base.pug
-html 
-    head
-        title= Hunger Food
-    body
-        h1= This is my about page
+block scripts   
+    script(src="../static/app.js") 
+block style            
+    include ../static/style.css
+block content
+    h1 This is my about pug page    
+    |   and we are ready to work.

@@ -1,0 +1,13 @@
+extends base.pug
+block scripts   
+    script(src="../static/app.js") 
+block style
+    style
+        include ../static/contact.css
+block content 
+    div#data 
+        h2 Contact Us
+        input(type="text")
+        input(type="email")
+        input(type="text")
+        input(type="text")
